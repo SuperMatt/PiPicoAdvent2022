@@ -25,4 +25,5 @@ while True: # Run forever
     # The duty cycle tells the LED for how long it should be on each time
     led.duty_u16(reading)
     
+    
     time.sleep(0.0001) # A really short delay
